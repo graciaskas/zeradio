@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">       
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>ZeStations</title>
 </head>
 <body>
     <div class="radio dark-o t-white">
@@ -21,40 +21,99 @@
             <!-- List Stations-->
             <div class="list-station">
                 <!-- Station-->
-                <div class="station active dark-o">
-                    <h4>The Weekend</h4>
-                    <span>90.89</span>
+                <div class="station">
+                    <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcSBsaJRdh5iK3VPOEjYOf2lM9_Im4lx3doKAZarzF1K61lYIVlK" alt="">
+                    <div class="content">
+                        <h4>The Weekend</h4>
+                        <span>90.89</span>
+                    </div>
+                    <i class="ri-play-fill control dark-o"></i>
                 </div>
-                <div class="station active dark-o">
-                    <h4>The Weekend</h4>
-                    <span>90.89</span>
+                <div class="station">
+                    <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcSBsaJRdh5iK3VPOEjYOf2lM9_Im4lx3doKAZarzF1K61lYIVlK" alt="">
+                    <div class="content">
+                        <h4>The Weekend</h4>
+                        <span>90.89</span>
+                    </div>
+                    <i class="ri-play-fill control dark-o"></i>
                 </div>
-                <div class="station active dark-o">
-                    <h4>The Weekend</h4>
-                    <span>90.89</span>
+                <div class="station ">
+                    <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcSBsaJRdh5iK3VPOEjYOf2lM9_Im4lx3doKAZarzF1K61lYIVlK" alt="">
+                    <div class="content">
+                        <h4>BBC One Angola</h4>
+                        <span>90.89</span>
+                    </div>
+                    <i class="ri-play-fill control dark-o"></i>
                 </div>
-                <div class="station dark-o">
-                    <h4>France 24</h4>
-                    <span>90.89</span>
+                <div class="station active">
+                    <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcSBsaJRdh5iK3VPOEjYOf2lM9_Im4lx3doKAZarzF1K61lYIVlK" alt="">
+                    <div class="content">
+                        <h4>The Weekend</h4>
+                        <span>90.89</span>
+                    </div>
+                    <i class="ri-play-fill control dark-o"></i>
                 </div>
-                <div class="station active dark-o">
+                <div class="station">
+                    <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcSBsaJRdh5iK3VPOEjYOf2lM9_Im4lx3doKAZarzF1K61lYIVlK" alt="">
+                    <div class="content">
+                        <h4>Avatar Channel</h4>
+                        <span>90.89</span>
+                    </div>
+                    <i class="ri-play-fill control dark-o"></i>
+                </div>
+                <div class="station">
+                    <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcSBsaJRdh5iK3VPOEjYOf2lM9_Im4lx3doKAZarzF1K61lYIVlK" alt="">
+                    <div class="content">
+                        <h4>Naruto Shippuden</h4>
+                        <span>90.89</span>
+                    </div>
+                    <i class="ri-play-fill control dark-o"></i>
+                </div>
+                 <div class="station">
+                    <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcSBsaJRdh5iK3VPOEjYOf2lM9_Im4lx3doKAZarzF1K61lYIVlK" alt="">
+                    <div class="content">
+                        <h4>Aljazzira</h4>
+                        <span>90.89</span>
+                    </div>
+                    <i class="ri-play-fill control dark-o"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Player-->
+        <div class="radio-player">
+            <div class="station active dark-ooo">
+                <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcSBsaJRdh5iK3VPOEjYOf2lM9_Im4lx3doKAZarzF1K61lYIVlK" alt="">
+                <div class="content">
                     <h4>The Weekend</h4>
                     <span>90.89</span>
                 </div>
             </div>
-        </div>
-          <!-- Player-->
-        <div class="radio-player">
            <div class="player">
-                <div class="screen">
+                
+                <div class="screen dark-oo">
                     <img src="./src/dic.png" alt="">
                 </div>
+
+                <div class="player-bar">
+                    <span class="current-time" class="time">0:00</span>
+                    <input type="range" class="seek-slider song-slider" max="100" value="0">
+                    <span id="duration" class="time">0:00</span>
+                    <!-- <input type="range" id="volume-slider" max="100" value="100"> -->
+                    <span class="demo"></span>
+                </div>
+
                 <div class="controls dark-ooo">
-                    <i class="ri-rewind-fill"></i>
-                    <i class="ri-stop-fill"></i>
-                    <i class="ri-play-fill"></i>
-                    <i class="ri-speed-fill"></i>
-                    <span></span>
+                    <i class="ri-skip-back-fill control dark-o"></i>
+                    <i class="ri-play-fill control blue-o play-pause"></i>
+                    <i class="ri-skip-forward-fill control dark-o"></i>
+                    <span class="ri-volume-up-fill control dark-o"></span>
+                    <div class="player-bar">
+                        <input type="range" class="seek-slider volume-button" max="100" value="0">
+                        <span  class="volume-level">0</span>
+                        <!-- <input type="range" id="volume-slider" max="100" value="100"> -->
+                        <span class="demo"></span>
+                    </div>
                 </div>
            </div>
         </div>

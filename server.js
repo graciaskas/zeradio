@@ -71,16 +71,12 @@ function get_radiobrowser_base_url_random() {
 }
 
 get_radiobrowser_base_urls().then(hosts => {
-    // console.log("All available urls")
-    // console.log("------------------")
-    for (let host of hosts) {
+    for (let host of hosts)
         console.log(host);
-    }
-    console.log();
-
+    
     return get_radiobrowser_base_url_random();
-}).then(random_host => {
-    // console.log("Random base url")
-    // console.log("------------------")
-    // console.log(random_host);
-});
+    }).then(random_host => {
+        // console.log("Random base url")
+        // console.log("------------------")
+        // console.log(random_host);
+    });
